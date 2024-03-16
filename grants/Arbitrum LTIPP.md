@@ -20,6 +20,8 @@ Project Links:
 - [goverland.xyz](https://goverland.xyz/)
 - [GitHub](https://github.com/goverland-labs)
 - [iOS TestFlight App](https://testflight.apple.com/join/RXPCZXIg)
+- [Discord](https://discord.gg/uerWdwtGkQ)
+- [X (Twitter)](https://twitter.com/goverland_xyz)
 
 ### Contact Information
 
