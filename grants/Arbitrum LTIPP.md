@@ -217,6 +217,8 @@ We do not have matching funds available.
 
 We have estimated an average hourly rate of $80.
 
+*Note: Our team understands that the ARB token price might fluctuate and is ready to take the risk, providing commitments to deliver outlined features utilizing our resources.*
+
 ### Funding Address
 
 arb1:0xA535473dD8Ce01bAC69Ca33558239dd4435aF705
