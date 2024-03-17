@@ -4,21 +4,24 @@
 
 **Project Name:** Goverland
 
-**Project Description:** Goverland is a Mobile App for all DAOs to take governance UX to the next level for DAO participants.
+**Project Description:** Goverland is a mobile app that allows DAO participants to follow updates, vote, and discover insights. With features like push notifications and wallet connectivity, Goverland simplifies voting, making DAO participation more convenient and inclusive. We already support participating in Snapshot off-chain voting. With additional support, we hope to integrate on-chain voting for Arbitrum DAO soon.
 
 **Team Members and Roles:**
 
-- Andrey Scherbovich, CEO
-- Pavel Shapovalov, CTO
-- Varvara Beloveshkina, BD
-- Sergey Larionov - Backend Engineer
-- Eugenia Shalai - iOS Engineer
-- Elena Kirina - Designer
+- [Andrey Scherbovich](https://www.linkedin.com/in/scherbovich/), CEO
+- [Pavel Shapovalov](https://www.linkedin.com/in/shapovalov-pavel/), CTO
+- [Varvara Beloveshkina](https://www.linkedin.com/in/varvara-beloveskina-20479313/), BD
+- [Sergey Larionov](https://www.linkedin.com/in/s-larionov/) - Backend Engineer
+- [Eugenia Shalai](https://www.linkedin.com/in/jennyshalai/) - iOS Engineer
+- [Elena Kirina](https://www.linkedin.com/in/elena-kirina-5698481b6/) - Designer
 
 Project Links: 
 
 - [goverland.xyz](https://goverland.xyz/)
-- https://github.com/goverland-labs
+- [GitHub](https://github.com/goverland-labs)
+- [iOS TestFlight App](https://testflight.apple.com/join/RXPCZXIg)
+- [Discord](https://discord.gg/uerWdwtGkQ)
+- [X (Twitter)](https://twitter.com/goverland_xyz)
 
 ### Contact Information
 
@@ -42,11 +45,13 @@ Our team's vision for Goverland is to democratize governance for DAO participant
 
 ## Product Features:
 
-In our forthcoming public release, Goverland will introduce a host of user-friendly features tailored to DAO participants:
+Our public release will be in April. With the full support of Snapshot protocol voting initially, with the help of this grant, we will add support of Arbitrum DAO on-chain voting on iOS and iPadOS happening on the Arbitrum chain within 12 weeks while the grant program runs.
 
-- **Subscription Services**: Users can opt-in to receive push notifications for key DAO updates, including:
+### Features avaialble during the public laucnh in April:
+
+- **Notifications**: Users can opt-in to receive push notifications for key DAO updates, including:
   - New proposals
-  - Quorum achievements
+  - Proposals quorum achievements
   - Voting reminders as deadlines approach
   - Final voting outcomes
 
@@ -56,19 +61,19 @@ In our forthcoming public release, Goverland will introduce a host of user-frien
   - Voting frequency among users
   - Top voters ranked by average voting power
 
-- **Voting Accessibility**: Users can conveniently participate in voting processes, initially through Snapshot, ensuring on-the-go engagement with governance activities.
+- **Voting Accessibility**: Users can conveniently participate in voting processes using mobile devices, ensuring on-the-go engagement with governance activities.
 
 These features collectively aim to streamline the user experience, promote informed decision-making, and foster a more robust and engaged DAO community.
 
-### Bringing ArbitrumDAO On-Chain Voting Experience to Goverland App
+### Why bring ArbitrumDAO On-Chain Voting Experience to mobile
 
-ArbitrumDAO stands as one of the largest DAOs, boasting approximately [~60K monthly active voting addresses on Snapshot](https://dune.com/queries/3480528/5849863) and [~20K monthly active voting addresses on-chain](https://dune.com/queries/3480520/5849859), primarily utilizing Tally's web interface.
+ArbitrumDAO stands as one of the largest DAOs, boasting approximately [~60K monthly active voting addresses on Snapshot](https://dune.com/queries/3480528/5849863) and [~20K monthly active voting addresses on-chain](https://dune.com/queries/3480520/5849859).
 
 Presently, ArbitrumDAO participants navigate through multiple platforms to engage in full-cycle governance, including the ArbitrumDAO forum, Snapshot for off-chain voting, and Tally interface for on-chain voting. 
 
 Through the Goverland Mobile App, we aim to streamline this process by consolidating vital information into one accessible platform, providing users with a seamless governance experience on mobile devices.
 
-In this grant proposal, we seek support to integrate ArbitrumDAO's on-chain voting experience into the Goverland App, thus enhancing accessibility and user engagement within the DAO's governance processes.
+In this grant proposal, we seek support to integrate ArbitrumDAO's on-chain voting experience into the Goverland App.
 
 ### Novelty and Innovation
 
@@ -80,11 +85,18 @@ Our project embraces composability, as many components delivered will be open-so
 
 ### Retention Measurement
 
-Internally, we employ metrics to track and visualize returning DAO voters, with our primary KPIs focused on increasing core user retention and enhancing token holder participation rates.
+We visualize new and returning DAO users inside the App and voters' participation frequency.
+
+<img src="https://github.com/sche/public/blob/708c0c600cd49c18c5ff10898cd90df6bc5534f6/images/Arbitrum%20Insights%20-%20Mar%2016%2C%202024.png?raw=true" width="400"/>
 
 ### Relevant Usage Metrics
 
-As the App is not yet public at the time of this grant application, relevant usage metrics will be collected and analyzed post-launch.
+To measure the positive outcome this grant results, we will visualize the following usage metrics:
+- Percentage of voting power participating in Snapshot/On-chain voting.
+- Percentage of token holders participating in Snapshot/On-chain voting.
+- Distribution of votes across different interfaces.
+- Voter retention rate.
+- Identifying the top voters based on average voting power over the last six months.
 
 ### Team-Controlled Wallets and Incentives
 
@@ -98,49 +110,65 @@ No, we did not utilize grants consultants or any other third-party entities in t
 
 ### Is the protocol native to Arbitrum?
 
-No, our open-source infrastructure is designed to be generic-purpose for all types of DAOs. However, custom integration is required for large DAOs like Arbitrum that utilize a custom implementation of on-chain voting.
+ArbtirumDAO on-chain voting using Governor contract modification is native to Arbitrum. We don't own the voting protocol, but we build a convenient mobile app that brings more users and usage to the network.
+
+Our open-source infrastructure is designed to be generic-purpose for all types of DAOs. However, custom integration is required for large DAOs like Arbitrum that utilize a custom implementation of on-chain voting.
 
 ### On what other networks is the protocol deployed?
 
-Currently, we only support off-chain voting using Snapshot.
-
-### What date did you deploy on Arbitrum mainnet?
-
-Not relevant to our current stage.
+ArbtirumDAO voting is on the Arbitrum network.
+The Goverland Mobile App supports off-chain voting using Snapshot only at the moment.
 
 ### Do you have a native token?
 
-No, there are no plans for a native token at this time.
+No, there are no plans for Goverland native token at this time.
 
 ### Past Incentivization
 
-Not applicable; we have not previously run any liquidity mining or incentive programs.
+No.
 
 ### Current Incentivization
 
-There are no current incentivization programs in place.
+No.
 
 ### Have you received a grant from the DAO, Foundation, or any Arbitrum ecosystem related program?
 
-No, we have not received any grants from the DAO, Foundation, or any Arbitrum ecosystem-related programs.
+No.
 
 ### Protocol Performance
 
-As we are not public yet, performance metrics are not available.
+[~20K monthly active voting addresses on-chain for ArbitrumDAO](https://dune.com/queries/3480520/5849859)
 
 ### Protocol Roadmap
 
-Our roadmap includes:
+Our roadmap about ArbitrumDAO on-chain voting includes:
 
-- Integration of first DAO on-chain voting: 3 months after the public launch.
-- Future plans dependent on feature priorities:
-  - Support for more on-chain DAOs.
-  - Introduction of DAO delegates and delegate accountability features.
-  - Development of an Android App.
+**12 weeks after the grant approval**
+- Push notifications for on-chain proposals:
+  - New Proposal
+  - Quorum reached
+  - Vote finishes soon
+  - Vote finished
+- Voting on mobile using a connected wallet
+- Linking Snapshot proposals to on-chain proposals
+- Visualization of on-chain voting activity:
+  - Monthly active users
+  - Voters retention
+  - Monthly new proposals
+  - Percentage of successful proposals
+  - Top voters by avg. voting power
+
+**Later**
+- Convenience around tokens delegation
+  - List of DAO delegates 
+  - Delegates' performance visualization
+  - Notifications about delegates' activity
+- Support of new interfaces
+  - Android App
 
 ### Audit History & Security Vendors
 
-Not applicable at this time.
+No.
 
 ### Security Incidents
 
@@ -150,11 +178,11 @@ There have been no security incidents to report.
 
 ### Requested Grant Size
 
-75000 ARB tokens
+60000 ARB tokens
 
 ### [Justification for the size of the grant](https://docs.google.com/document/d/1l-gq4HgKlVCAq2QnNCJFA1nHD9mnNg_im1C_XabtA_g/edit?usp=sharing)
 
-The requested grant size will cover the expenses associated with bringing Arbitrum on-chain governance to iOS, including paying the technical team for their work. A detailed breakdown is provided in the linked document.
+The requested grant size will cover the expenses associated with bringing Arbitrum on-chain governance to iOS and iPadOS, including paying the technical team for their work. A detailed breakdown is provided in the linked document.
 
 ### **Grant Matching**
 
@@ -167,15 +195,16 @@ We do not have matching funds available.
 - Backend implementation (~480 hours)
 - iOS implementation (~720 hours)
 
-We have estimated an average hourly rate of $80, with approximately 20% buffer adjustments.
+We have estimated an average hourly rate of $80.
 
 ### Funding Address
 
-[Enter the specific address where funds will be sent for grant recipients]
+arb1:0xA535473dD8Ce01bAC69Ca33558239dd4435aF705
 
 ### Funding Address Characteristics:
 
-[Enter details on the status of the address; the eligible address must be a 2/3, 3/5, or similar setup multisig with unique signers and private keys securely stored (or an equivalent custody setup that is clearly stated). The multisig must be able to accept and interact with ERC-721s in order to accept the funding stream.]
+2/3 Safe Multisig.
+The signing keys belong to two founders and a core team member.
 
 ### Treasury Address
 
@@ -183,7 +212,7 @@ No
 
 ### Contract Address
 
-[Enter any specific address that will be used to disburse funds for grant recipients]
+No
 
 
 ## SECTION 4: GRANT OBJECTIVES, EXECUTION AND MILESTONES
@@ -192,7 +221,9 @@ No
 
 ### Objectives
 
-To make ArbitrumDAO on-chain governance accessible on mobile, reaching a broader audience of ARB token holders.
+- To make ArbitrumDAO on-chain governance accessible on mobile, reaching a broader audience of ARB token holders.
+- Bring more users for ArbitrumDAO on-chain voting.
+- Increase voter participation and retention rates.
 
 ### Execution Strategy
 
@@ -202,13 +233,13 @@ We incentivize ArbitrumDAO participants to be more active in governance, aiming 
 
 ### **Resources**
 
-**Financial:** We require resources to integrate this feature into our app.
+**Financial:** We require resources to integrate ArbtirumDAO on-chain voting into Goverland App.
 
 **Marketing:** We need to raise awareness that this feature is available on mobile for ARB token holders.
 
 **Use of funds:** App development & business development.
 
-**Products:** iOS app with full support for Snapshot and on-chain voting for ArbitrumDAO.
+**Products:** iOS and iPadOS apps with full support for Snapshot and on-chain voting for ArbitrumDAO.
 
 #### Mechanisms for Incentivizing Stickiness
 
@@ -220,6 +251,7 @@ We incentivize ArbitrumDAO participants to be more active in governance, aiming 
 
 - Full support of on-chain voting for ArbitrumDAO within the Goverland App on iOS.
 - Increased participation rate among ARB token holders due to activation of a new user group.
+  - **Target metric:** 2x in active ArbitrumDAO on-chain voters in 3 months after the integration
 
 #### Grant Timeline and Milestones
     
@@ -228,6 +260,8 @@ We incentivize ArbitrumDAO participants to be more active in governance, aiming 
 - **Month 2:** Design & requirements finalization, first internal release with limited functionality. Continuation of technical implementation.
     
 - **Month 3:** Final UX tests, implementation finalization, release.
+  
+- **Month 4-6:** UX improvements targeting achievements of the target metric: 2x increase in active voters.
 
 #### How the Grant Enables Growth or Innovation within the Arbitrum Ecosystem
 
@@ -236,7 +270,6 @@ Integrating on-chain governance into the Goverland App for ArbitrumDAO will pion
 #### Grant Funding Acceptance
 
 Yes, we accept the funding of our grant streamed linearly for the duration of our grant proposal, and the multisig holds the power to halt the stream.
-    
 
 ## SECTION 5: Data and Reporting
 
