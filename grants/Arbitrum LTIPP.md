@@ -85,7 +85,12 @@ Our project embraces composability, as many components delivered will be open-so
 
 ### Retention Measurement
 
-We visualize new and returning DAO users inside the App and voters' participation frequency.
+Currently, we visualize both new and returning monthly active voters in the application.
+
+Essential metrics that we will add on retention while working on this grant:
+
+- **Retention of New Users:** We will introduce graphs that track the retention of new users who have voted on a proposal, analyzing their engagement in subsequent voting rounds.
+- **Month-to-Month Retention:** Visuals that depict the retention of new users who voted during a specific month, observing their continued engagement in the following months.
 
 <img src="https://github.com/sche/public/blob/708c0c600cd49c18c5ff10898cd90df6bc5534f6/images/Arbitrum%20Insights%20-%20Mar%2016%2C%202024.png?raw=true" width="400"/>
 
@@ -117,7 +122,7 @@ Our open-source infrastructure is designed to be generic-purpose for all types o
 ### On what other networks is the protocol deployed?
 
 ArbtirumDAO voting is on the Arbitrum network.
-The Goverland Mobile App supports off-chain voting using Snapshot only at the moment.
+The Goverland Mobile App supports off-chain voting using Snapshot only at the moment. We don't own smart contracts and are not working on on-chain voting solutions. We try to incentivize the usage of existing governance frameworks.
 
 ### Do you have a native token?
 
@@ -137,13 +142,25 @@ No.
 
 ### Protocol Performance
 
-[~20K monthly active voting addresses on-chain for ArbitrumDAO](https://dune.com/queries/3480520/5849859)
+Below are some current metrics of ArbitrumDAO performance:
+
+**Snapshot**
+Data is available in the ArbitrumDAO insights tab of the Goverland App.
+
+- 75.6% of successful proposals
+- 153.45K of voting addresses ever participated
+- 40% of the solid retaining core of voters
+- On avg. 49K voting addresses participating in the last 3 months
+
+**Governor**
+- [On avg. 21.3K (2.3% of ARB token holders) monthly active voting addresses on-chain for ArbitrumDAO](https://dune.com/queries/3480520/5849859)
 
 ### Protocol Roadmap
 
 Our roadmap about ArbitrumDAO on-chain voting includes:
 
 **12 weeks after the grant approval**
+
 - Push notifications for on-chain proposals:
   - New Proposal
   - Quorum reached
@@ -159,11 +176,14 @@ Our roadmap about ArbitrumDAO on-chain voting includes:
   - Top voters by avg. voting power
 
 **Later**
-- Convenience around tokens delegation
-  - List of DAO delegates 
+
+*Disclaimer: the mentioned below features are part of our backlog, but we may adjust priority and planned delivery dates*
+
+- (Q3, 2024) Convenience around tokens delegation
+  - List of DAO delegates
   - Delegates' performance visualization
   - Notifications about delegates' activity
-- Support of new interfaces
+- (Q4, 2024 - Q1, 2025) Support of new interfaces
   - Android App
 
 ### Audit History & Security Vendors
@@ -197,6 +217,8 @@ We do not have matching funds available.
 
 We have estimated an average hourly rate of $80.
 
+*Note: Our team understands that the ARB token price might fluctuate and is ready to take the risk, providing commitments to deliver outlined features utilizing our resources.*
+
 ### Funding Address
 
 arb1:0xA535473dD8Ce01bAC69Ca33558239dd4435aF705
@@ -221,9 +243,11 @@ No
 
 ### Objectives
 
-- To make ArbitrumDAO on-chain governance accessible on mobile, reaching a broader audience of ARB token holders.
+- Make ArbitrumDAO on-chain governance accessible on mobile, reaching a broader audience of ARB token holders.
 - Bring more users for ArbitrumDAO on-chain voting.
 - Increase voter participation and retention rates.
+- Consequently, bring more users to ArbitrumDAO proposal discussions on the forum.
+- **Core Target Objective:** 2x increase in ARB token holders participation rate
 
 ### Execution Strategy
 
@@ -288,3 +312,15 @@ Yes, we agree to provide a final closeout report within two weeks from the endin
 ### Does your team acknowledge that failure to comply with any of the above requests can result in the halting of the program’s funding stream?
 
 Yes, we acknowledge that failure to comply with any of the above requests can result in the halting of the program's funding stream.
+
+## Justification closing notes
+
+Dear ArbitrumDAO Council,
+
+We are grateful for the opportunity to present our proposal, acknowledging that it may not align directly with the LTIP pilot program, as outlined by our advisors. However, the work we intend to undertake with the support of this grant program represents a crucial step toward realizing the global vision of establishing Arbitrum as a community-owned chain and ecosystem.
+
+Numerous ideas are emerging concerning incentivizing governance participation among token holders. One notable example is the recent unveiling of the [Boost feature](https://snapshot.mirror.xyz/AVfD_0bMmL_jJMUJGhOb7hOouo90FYEuvsqSLYr9cqY) by the Snapshot team. Our team is highly enthusiastic about engaging more token holders in governance, fostering a sense of attachment and alignment with DAOs' values. Nonetheless, we recognize the importance of **laying the groundwork before delving into more advanced incentive programs**. Our objective is to render governance participation more accessible and enjoyable, and Goverland is poised to contribute to this endeavor.
+
+Goverland represents a continuation of the collective effort undertaken by numerous projects, such as Snapshot, Tally, Aragon, and others, to enhance the user experience of participating in DAO governance. Our app is freely accessible and serves as a public good to DAO users. We are eager to receive support to expedite the development of a seamless DAO participation experience for users. With the backing of ArbitrumDAO, we anticipate accelerating progress significantly, expeditiously delivering value to ArbitrumDAO users, and subsequently benefiting users across numerous other DAOs in the near future.
+
+Thank you for considering our proposal.
